@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Bazel Output directories
+bazel-bin/
+bazel-out/
+bazel-smol-llm/
+bazel-testlogs/
