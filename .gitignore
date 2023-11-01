@@ -32,7 +32,8 @@
 *.app
 
 # Bazel Output directories
-bazel-bin/
-bazel-out/
-bazel-smol-llm/
-bazel-testlogs/
+bazel-bin/*
+bazel-out/*
+bazel-smol-llm/*
+bazel-testlogs/*
+bazel-*
