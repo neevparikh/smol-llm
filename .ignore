@@ -30,12 +30,16 @@
 *.exe
 *.out
 *.app
-
-# Bazel Output directories
-bazel-bin/*
-bazel-out/*
-bazel-smol-llm/*
-bazel-testlogs/*
 bazel-*
+external
+.cache
+build
 
-build/
+lib/ggml/ci
+lib/ggml/cmake
+lib/ggml/examples
+lib/ggml/.github
+lib/ggml/tests
+lib/ggml/scripts
+lib/ggml/.*
+
