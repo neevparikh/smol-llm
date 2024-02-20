@@ -39,3 +39,4 @@ bazel-testlogs/*
 bazel-*
 
 build/
+cpp/lib/libtorch
